@@ -15,16 +15,16 @@ export default function Sections() {
 function Process() {
   const steps = [
     {
-      title: "Choose your business type",
-      desc: "Free Zone, Mainland or Offshore — we’ll guide you to the best fit.",
+      title: "Tell us your business activity",
+      desc: "We match you with the best UAE free zone for your activity.",
     },
     {
-      title: "Get cost estimate",
-      desc: "Transparent pricing tailored to partners, visas and office needs.",
+      title: "Get instant estimate",
+      desc: "Transparent pricing based on visas and workspace needs.",
     },
     {
-      title: "Start today!",
-      desc: "Submit docs and get your license fast — often within 24 hours.",
+      title: "Launch in as little as 24h",
+      desc: "Your dedicated advisor handles the process end to end.",
     },
   ];
   return (
@@ -36,7 +36,7 @@ function Process() {
         transition={{ duration: 0.5 }}
         className="text-3xl sm:text-4xl font-semibold text-[#222222] text-center"
       >
-        Simple 3‑Step Process
+        Simple 3‑Step Free Zone Setup
       </motion.h2>
       <div className="mt-10 grid gap-6 sm:grid-cols-3">
         {steps.map((s, i) => (
@@ -83,16 +83,16 @@ function Stat({ icon, title, desc }) {
 function WhyUs() {
   const items = [
     {
-      title: "Fastest setup",
-      desc: "Streamlined process with Free Zones and authorities to move quickly.",
+      title: "Free zone specialists",
+      desc: "We align your activity with the right UAE free zone authority.",
     },
     {
       title: "Expert advisors",
-      desc: "Specialists in Mainland, Free Zone and Offshore with tailored guidance.",
+      desc: "Dedicated concierge to guide you throughout the process.",
     },
     {
       title: "Tailored activities",
-      desc: "We match your business activities to the right jurisdiction.",
+      desc: "Get the precise activity list required by the authority.",
     },
     {
       title: "Transparent pricing",
@@ -115,7 +115,7 @@ function WhyUs() {
               Why Choose Us
             </motion.h2>
             <p className="mt-3 text-[#222222]/80">
-              We combine speed, expertise and a personal touch to get your trade license quickly and without surprises.
+              We combine speed, expertise and a personal touch to get your free zone trade license quickly and without surprises.
             </p>
             <div className="mt-8 grid gap-6">
               {items.map((it) => (
@@ -141,7 +141,7 @@ function WhyUs() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-xl bg-white border border-[#EAEAEA] p-4 shadow-sm">
-              <div className="text-sm text-[#222222]/70">Speak to an advisor</div>
+              <div className="text-sm text-[#222222]/70">Speak to a free zone advisor</div>
               <div className="font-medium text-[#222222]">Instant chat or call</div>
             </div>
           </div>
@@ -158,11 +158,11 @@ function BlogPreview() {
       img: "https://images.unsplash.com/photo-1541534401786-2077eed87a72?q=80&w=1600&auto=format&fit=crop",
     },
     {
-      title: "How to Get a Trade License in Dubai Fast",
+      title: "How to Get a Free Zone Trade License Fast",
       img: "https://images.unsplash.com/photo-1516009082704-3b9a261c1e2b?q=80&w=1600&auto=format&fit=crop",
     },
     {
-      title: "Free Zone vs Mainland – What’s Best for You?",
+      title: "Free Zone Company Setup: Step-by-Step Guide",
       img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1600&auto=format&fit=crop",
     },
   ];
@@ -170,7 +170,7 @@ function BlogPreview() {
   return (
     <section id="blog" className="scroll-mt-20">
       <h2 className="text-3xl sm:text-4xl font-semibold text-[#222222] text-center">Insights & Guides</h2>
-      <p className="mt-2 text-center text-[#222222]/80">Learn how to launch smarter in Dubai and across the UAE.</p>
+      <p className="mt-2 text-center text-[#222222]/80">Learn how to launch smarter in UAE free zones.</p>
       <div className="mt-8 grid gap-6 sm:grid-cols-3">
         {posts.map((p) => (
           <article key={p.title} className="group rounded-2xl overflow-hidden border border-[#EAEAEA] bg-white shadow-sm">
@@ -207,7 +207,7 @@ function Contact() {
               <input className="rounded-xl border border-[#EAEAEA] bg-white px-4 py-3 outline-none focus:border-[#D4AF37]" placeholder="Email" />
               <input className="rounded-xl border border-[#EAEAEA] bg-white px-4 py-3 outline-none focus:border-[#D4AF37]" placeholder="Phone" />
             </div>
-            <textarea className="rounded-xl border border-[#EAEAEA] bg-white px-4 py-3 outline-none focus:border-[#D4AF37]" placeholder="Tell us about your business" rows={4} />
+            <textarea className="rounded-xl border border-[#EAEAEA] bg-white px-4 py-3 outline-none focus:border-[#D4AF37]" placeholder="Tell us about your free zone business" rows={4} />
             <button type="button" className="rounded-full bg-[#D4AF37] px-6 py-3 text-white font-medium shadow-sm hover:shadow-lg transition-shadow">Get Free Consultation</button>
           </form>
         </div>
